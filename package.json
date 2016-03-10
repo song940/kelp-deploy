@@ -1,0 +1,29 @@
+{
+  "name": "kelp-deploy",
+  "version": "1.0.0",
+  "description": "deploy your app to server ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "deploy": "./bin/deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/kelp-deploy.git"
+  },
+  "author": "lsong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/song940/kelp-deploy/issues"
+  },
+  "homepage": "https://github.com/song940/kelp-deploy#readme",
+  "keywords": [
+    "kelp",
+    "deploy"
+  ],
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
